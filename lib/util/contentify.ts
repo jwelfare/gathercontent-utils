@@ -13,8 +13,7 @@ export const contentify = (item: GatherContentItem) => {
   );
 
   return {
-    ...item,
-    name: createSlug(item.name),
+    name: createSlug(item.name, {}, true),
     content: itemContent,
   };
 };
