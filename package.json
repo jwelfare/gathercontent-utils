@@ -1,0 +1,27 @@
+{
+  "name": "@jwelfare/gathercontent-utils",
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "author": "John Welfare <john@alphero.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "camelcase-keys": "^7.0.1",
+    "slugify": "^1.6.1",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "husky": "^7.0.4",
+    "prettier": "^2.4.1"
+  }
+}
