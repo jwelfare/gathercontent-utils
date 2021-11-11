@@ -1,0 +1,22 @@
+import { GatherContentItem } from '../types';
+export declare const contentify: (item: GatherContentItem) => {
+    name: string;
+    content: any;
+    id: number;
+    project_id: number;
+    folder_uuid: string;
+    template_id: string | null;
+    structure_uuid: string;
+    position: number;
+    archived_by: number | null;
+    archived_at: string | null;
+    created_at: string;
+    updated_at: string | null;
+    next_due_at: string | null;
+    completed_at: string | null;
+    status_id: number;
+    assigned_users: string[];
+    assigned_user_ids: number[];
+    assignee_count: number;
+    structure?: import("../types").GatherContentStructure | undefined;
+};

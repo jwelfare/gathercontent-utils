@@ -1,2 +1,2 @@
-import { getItemContent } from './api/items/getItemContent';
-export { getItemContent };
+import { contentify } from './util/contentify';
+export { contentify };
