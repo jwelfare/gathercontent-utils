@@ -6,8 +6,6 @@ Helpful util functions for working with the GatherContent API
 
 ### `contentify(item)`
 
-**Based off code within GatherContent's [offical client](https://github.com/gathercontent/gathercontent.js).**
-
 Recursively converts a GatherContent item response to a friendly content object by 'slugifying' it's labels into properities.
 
 #### Params
@@ -55,3 +53,7 @@ const content = contentify(response.data);
 //   'helloWorld': "<p>More features coming soon. This will include the ability to request COVID-19 vaccination certificates.</p>"
 // }
 ```
+
+## Acknowledgements
+
+Based off code within GatherContent's [offical client](https://github.com/gathercontent/gathercontent.js).
