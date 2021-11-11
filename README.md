@@ -10,6 +10,8 @@ Helpful util functions for working with the GatherContent API
 
 Recursively converts a GatherContent item response to a friendly content object by 'slugifying' it's labels into properities.
 
+#### Params
+
 | Name   | Type                | Description                   |
 | ------ | ------------------- | ----------------------------- |
 | `item` | `GatherContentItem` | the item object to contentify |
