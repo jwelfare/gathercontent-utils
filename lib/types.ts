@@ -115,3 +115,13 @@ export type PaginatedList<
   data: T[];
   pagination: PaginationProps;
 };
+
+export type GatherContentStatus = {
+  id: string;
+  is_default: boolean;
+  position: string;
+  color: string;
+  name: string;
+  description: string;
+  can_edit: boolean;
+};

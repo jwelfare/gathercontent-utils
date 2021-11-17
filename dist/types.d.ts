@@ -98,3 +98,12 @@ export declare type PaginatedList<T extends GatherContentComponent | GatherConte
     data: T[];
     pagination: PaginationProps;
 };
+export declare type GatherContentStatus = {
+    id: string;
+    is_default: boolean;
+    position: string;
+    color: string;
+    name: string;
+    description: string;
+    can_edit: boolean;
+};
