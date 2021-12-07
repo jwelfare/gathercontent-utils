@@ -21,7 +21,7 @@ export type GatherContentItem = {
   id: number;
   project_id: number;
   folder_uuid: string;
-  template_id: string | null;
+  template_id: number | null;
   structure_uuid: string;
   position: number;
   name: string;
@@ -89,8 +89,8 @@ export type GatherContentTemplate = {
 export type GatherContentField = {
   uuid: string;
   field_type: 'text' | 'component'; // TODO: complete this union type
-  label: 'string';
-  instructions: 'string';
+  label: string;
+  instructions: string;
   metadata: any; // TODO: complete this type
 };
 
