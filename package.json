@@ -1,6 +1,6 @@
 {
   "name": "@jwelfare/gathercontent-utils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/index.js",
   "author": "John Welfare <john@alphero.com>",
   "license": "MIT",
