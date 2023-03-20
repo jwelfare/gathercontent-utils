@@ -1,6 +1,6 @@
 {
   "name": "@jwelfare/gathercontent-utils",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "dist/index.js",
   "author": "John Welfare <john@alphero.com>",
   "license": "MIT",
@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "camelcase-keys": "^7.0.1",
-    "slugify": "^1.6.1",
-    "typescript": "^4.4.4"
+    "slugify": "^1.6.1"
   },
   "devDependencies": {
     "@types/node": "^16.11.6",
@@ -22,6 +21,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
     "husky": "^7.0.4",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "typescript": "4.4.4"
   }
 }
