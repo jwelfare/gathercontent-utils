@@ -31,12 +31,18 @@ export type GatherContentItem = {
   updated_at: string | null;
   next_due_at: string | null;
   completed_at: string | null;
+  "display_archived_at": any | null;
+  "display_completed_at": any | null;
+  "display_next_due_at": any | null;
+  "display_updated_at": any | null;
+  "display_created_at": any | null;
   content: {
     [key: string]: any;
   };
   status_id: number;
   assigned_users: string[];
   assigned_user_ids: number[];
+  current_workflow_assigned_user_ids: number[]
   assignee_count: number;
   structure?: GatherContentStructure;
 };
@@ -88,11 +94,18 @@ export type GatherContentTemplate = {
 
 export type GatherContentField = {
   uuid: string;
-  field_type: 'text' | 'component'; // TODO: complete this union type
+  field_type: 'text';
   label: string;
   instructions: string;
-  metadata: any; // TODO: complete this type
-};
+  metadata: any;
+} | {
+  uuid: string;
+  field_type: 'component';
+  label: string;
+  instructions: string;
+  metadata: any;
+  component: any;
+}
 
 export type PaginationProps = {
   total: number;
